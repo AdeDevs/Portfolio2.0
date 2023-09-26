@@ -9,9 +9,9 @@
 .nav-bar {
     font-family: 'Comfortaa';
     text-transform: uppercase;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 100%;
-    padding: 0px 70px;
+    padding: 0px 40px;
     box-sizing: border-box;
     align-items: center;
     display: inline-flex;
@@ -26,11 +26,21 @@
 }
 
 .socials {
-    background-color: blue;
     position: absolute;
-    top: 43%;
+    top: 42%;
+    box-sizing: border-box;
+}
+
+.socials img {
+    width: 28px;
 }
 
 .socials ul {
     list-style-type: none;
+    margin: auto 30px;
+}
+
+.socials ul li {
+    margin: 15px auto;
+    cursor: pointer;
 }

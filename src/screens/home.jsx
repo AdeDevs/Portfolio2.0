@@ -1,4 +1,7 @@
-import '../styles/home.css'
+import '../styles/home.css';
+import Github from '../assets/github.png';
+import LinkedIn from '../assets/linkedin.png';
+import Twitter from '../assets/twitter.png';
 
 function HomeScreen() {
   return (
@@ -15,9 +18,9 @@ function HomeScreen() {
 
       <div className="socials">
         <ul>
-          <li>T</li>
-          <li>G</li>
-          <li>L</li>
+          <li><img src={Github} alt="github" /></li>
+          <li><img src={LinkedIn} alt="linkedin" /></li>
+          <li><img src={Twitter} alt="twitter" /></li>
         </ul>
       </div>
     </div>
