@@ -1,4 +1,5 @@
 import HomeScreen from "./screens/home";
+import './styles/index.css'
 
 function App() {
   return (

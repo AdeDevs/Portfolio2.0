@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins:wght@700&display=swap');
+
+.container {
+    margin: 0 auto;
+    width: 98%;
+    height: 100vh;
+}
+
+.nav-bar {
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    margin: 10px auto;
+    width: 100%;
+    padding: 0px 70px;
+    box-sizing: border-box;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    width: 30%;
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.socials {
+    background-color: blue;
+    position: absolute;
+    top: 43%;
+}
+
+.socials ul {
+    list-style-type: none;
+}
