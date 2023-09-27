@@ -1,4 +1,5 @@
 import HomeScreen from "./screens/home";
+// import AboutScreen from './screens/about';
 import './styles/index.css'
 
 function App() {

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Comfortaa&family=DM+Serif+Display&family=Montserrat&family=Poppins:wght@700&display=swap');
 
-.container {
+.home-container {
     margin: 0 auto;
     width: 98%;
     height: 100vh;
@@ -18,11 +18,30 @@
     justify-content: space-between;
 }
 
+.nav-bar h1 img {
+    width: 100px;
+}
+
+.nav-bar h1 {
+    height: fit-content;
+}
+
 .nav-bar ul {
     width: 30%;
     display: inline-flex;
     list-style-type: none;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul li {
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 300ms;
 }
 
 .socials {
@@ -38,9 +57,46 @@
 .socials ul {
     list-style-type: none;
     margin: auto 30px;
+    align-items: center;
 }
 
 .socials ul li {
     margin: 15px auto;
     cursor: pointer;
+    align-items: center;
+}
+
+.socials ul li:hover {
+    border-bottom: 2px solid white;
+    border-radius: 10%;
+    transition: 300ms;
+}
+
+.title {
+    position: absolute;
+    top: 42%;
+    box-sizing: border-box;
+    left: 30%;
+}
+
+.title h1 {
+    font-family: 'DM Serif Display';
+    font-size: 5em;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.title p {
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 5em;
+    text-decoration: underline;
+    font-family: 'Chakra Petch', sans-serif;
 }

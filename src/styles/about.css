@@ -1,0 +1,38 @@
+.about-container {
+    margin: 0 auto;
+    width: 98%;
+    height: 100vh;
+}
+
+.about {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.about h1 {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.about p {
+    width: 470px;
+    text-align: justify;
+    font-size: .8em;
+    text-transform: capitalize;
+}
+
+.about ul {
+    list-style-type: none;
+    width: 42%;
+    text-align: right;
+}
+
+.about ul li {
+    margin: 10px 0;
+    padding: 8px 0;
+}
+
+#ab {
+    color: gray;
+}
