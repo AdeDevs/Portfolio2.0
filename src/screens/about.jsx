@@ -8,17 +8,6 @@ import Ade from "../assets/ade.png";
 function AboutScreen() {
   return (
     <div className="about-container">
-      <nav className="nav-bar">
-        <h1>
-          <img src={Ade} alt="" />
-        </h1>
-
-        <ul>
-          <li id="ab">About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
 
     <div className="about">
         <h1>i am a frontend developer</h1>

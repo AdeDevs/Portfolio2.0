@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./styles/reset.css";
 import "./styles/index.css";
 import App from "./App";
-import AboutScreen from "./screens/about";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 

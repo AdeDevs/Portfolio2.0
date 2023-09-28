@@ -8,15 +8,6 @@ import { Outlet, Link } from 'react-router-dom';
 function HomeScreen() {
   return (
     <div className="home-container">
-      <nav className='nav-bar'>
-        <h1><img src={Ade} alt="" /></h1>
-
-        <ul>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
 
       <div className="socials">
         <ul>
