@@ -3,3 +3,117 @@
     width: 98%;
     height: 100vh;
 }
+
+.contact {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-info {
+    width: 100%;
+    align-items: center;
+    height: 90vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.contact-info section{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contact section:nth-child(1) {
+    border-radius: 20px;
+}
+
+.contact section:nth-child(2) {
+    border-radius: blue;
+}
+
+.contact-info h1 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    width: fit-content;
+    letter-spacing: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+}
+
+.contact-info p {
+    margin: 25px auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact-info span {
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-right: 35px;
+    overflow: hidden;
+}
+
+.contact-info img {
+    display: block;
+}
+
+.contact-info a {
+    display: inherit;
+    align-items: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.contact-info a:hover {
+    color: gray;
+    transition: 200ms;
+}
+
+.contact-info input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 20px auto;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 20px;
+}
+
+.contact-info input::placeholder,.contact-info textarea::placeholder {
+    color: black;
+}
+
+.contact-info textarea {
+    height: 170px;
+    box-sizing: border-box;
+    width: 100%;font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin:auto;
+    border: none;
+    padding: 19px 19px;
+    border-radius: 20px;
+}
+
+.contact-info button {
+    width: 100%;
+    border: none;
+    padding: 10px 19px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contact-info button:hover {
+    background-color: black;
+    border: 2px solid gray;
+    transition: 200ms;
+    color: gray;
+}
