@@ -3,6 +3,7 @@ import Github from '../assets/github.png';
 import LinkedIn from '../assets/linkedin.png';
 import Twitter from '../assets/twitter.png';
 import Ade from '../assets/ade.png';
+import { Outlet, Link } from 'react-router-dom';
 
 function HomeScreen() {
   return (
