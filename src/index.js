@@ -1,23 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/reset.css';
-import './styles/index.css';
-import App from './App'
-import AboutScreen from './screens/about'
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/reset.css";
+import "./styles/index.css";
+import App from "./App";
+import AboutScreen from "./screens/about";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
 
-<BrowserRouter>
-      <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="about" element={<AboutScreen />} />   
-      </Routes>
-    </BrowserRouter>
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
