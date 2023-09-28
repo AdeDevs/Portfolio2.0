@@ -22,3 +22,8 @@ nav a{
     color: inherit;
     text-decoration: none;
 }
+
+.nav-container {
+        margin: 0 auto;
+        width: 98%;
+}

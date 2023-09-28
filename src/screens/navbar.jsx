@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
-import "../styles/home.css";
+import Github from "../assets/github.png";
+import LinkedIn from "../assets/linkedin.png";
+import Twitter from "../assets/twitter.png";
+// import Ade from "../assets/ade.png";
 
 function NavBar() {
   return (
-    <div>
+    <div className="nav-container">
       <nav className="nav-bar">
         {/* <h1><img src={Ade} alt="" /></h1> */}
         <h1>
@@ -15,6 +18,19 @@ function NavBar() {
           <li><NavLink to='/contact'>Contact</NavLink></li>
         </ul>
       </nav>
+      <div className="socials">
+        <ul>
+          <li>
+            <img src={Github} alt="github" />
+          </li>
+          <li>
+            <img src={LinkedIn} alt="linkedin" />
+          </li>
+          <li>
+            <img src={Twitter} alt="twitter" />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
