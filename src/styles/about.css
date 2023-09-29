@@ -36,3 +36,95 @@
 #ab {
     color: gray;
 }
+
+/* .testing {
+    background-color: #4070f4;
+    color: black;
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+} */
+
+.testing-box {
+    position: relative;
+    max-width: 490px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.skill-box.first {
+    margin-top: 25px;
+}
+
+.skill-box {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.skill-box .name {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
+.skill-box .skill-bar {
+    height: 5px;
+    width: 80%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(255, 255, 255, 0.27);
+}
+.skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background: #4070f4;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.css {
+    width: 80%;
+    animation-delay: 0.2s;
+}
+.skill-per.javascript {
+    width: 79%;
+    animation-delay: 0.3s;
+}
+.skill-per.react {
+    width: 69%;
+    animation-delay: 0.4s;
+}
+.skill-per.vue {
+    width: 50%;
+    animation-delay: 0.4s;
+}
+.skill-per.typescript {
+    width: 20%;
+}
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    left: 0;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #fff;
+}
