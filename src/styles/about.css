@@ -23,17 +23,6 @@
     margin-bottom: 20px;
 }
 
-.about ul {
-    list-style-type: none;
-    width: 42%;
-    text-align: right;
-}
-
-.about ul li {
-    margin: 10px 0;
-    padding: 8px 0;
-}
-
 #ab {
     color: gray;
 }
@@ -119,4 +108,27 @@
     padding: 2px 6px;
     border-radius: 3px;
     background-color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    .about-container {
+        height: auto;
+        width: 99%;
+    }
+    .about {
+        margin: 0 auto;
+        margin-top: 110px;
+    }
+    .about p{
+        width: 100%;
+    }
+    .testing-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+    footer {
+        background-color: red;
+        display: none;
+    }
 }

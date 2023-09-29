@@ -91,7 +91,7 @@
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -99,4 +99,38 @@ footer p {
     font-size: 5em;
     text-decoration: underline;
     font-family: 'Chakra Petch', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        background-color: aliceblue;
+        height: fit-content;
+        width: 99%;
+    }
+    .nav-bar {
+        justify-content: none;
+        padding: 2px;
+        box-sizing: border-box;
+    }
+    .nav-bar h1 {
+        font-size: 11px;
+    }
+    .title h1{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    .nav-bar ul {
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .nav-bar ul li {
+        margin: auto 5px;
+    }
+    .title {
+        top: 43%;
+    }
+    .socials ul {
+        margin: auto 5px;
+    }
 }
