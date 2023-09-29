@@ -2,7 +2,7 @@ import '../styles/contact.css';
 import mail from '../assets/mail.png';
 import phone from '../assets/telephone.png';
 import location from '../assets/location.png';
-import { Slide } from 'react-reveal';
+import { Slide, Fade } from 'react-reveal';
 
 function ContactScreen(params) {
   return (
@@ -29,7 +29,9 @@ function ContactScreen(params) {
       </div>
 
       <footer>
+        <Fade bottom>
         <p>04</p>
+        </Fade>
       </footer>
     </div>
   );

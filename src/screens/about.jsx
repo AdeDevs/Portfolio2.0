@@ -77,7 +77,9 @@ function AboutScreen() {
       </div>
 
       <footer>
+        <Fade bottom>
         <p>02</p>
+        </Fade>
       </footer>
     </div>
   );
