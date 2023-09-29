@@ -37,15 +37,6 @@
     color: gray;
 }
 
-/* .testing {
-    background-color: #4070f4;
-    color: black;
-    display: flex;
-    height: 40vh;
-    align-items: center;
-    justify-content: center;
-} */
-
 .testing-box {
     position: relative;
     max-width: 490px;
