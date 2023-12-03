@@ -18,6 +18,7 @@ function NavBar() {
           <li><NavLink to='/contact'>Contact</NavLink></li>
         </ul>
       </nav>
+
       <div className="socials">
         <ul>
           <li>

@@ -27,16 +27,16 @@
 }
 
 .nav-bar ul {
-    width: 30%;
-    display: inline-flex;
+    width: 50%;
     list-style-type: none;
-    justify-content: space-between;
     align-items: center;
 }
 
 .nav-bar ul li {
     align-items: center;
     justify-content: center;
+    float: right;
+    margin: auto 8px;
 }
 
 .nav-bar ul li:hover {
@@ -73,10 +73,17 @@
 }
 
 .title {
-    position: absolute;
-    top: 42%;
     box-sizing: border-box;
-    left: 30%;
+    height: 90vh;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.title section {
+    width: 100%;
 }
 
 .title h1 {
@@ -90,8 +97,9 @@
     text-transform: uppercase;
 }
 
+ 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 
@@ -99,17 +107,16 @@ footer p {
     font-size: 5em;
     text-decoration: underline;
     font-family: 'Chakra Petch', sans-serif;
-}
+}/*  */
 
 @media (max-width: 600px) {
     .home-container {
-        background-color: aliceblue;
         height: fit-content;
         width: 99%;
     }
     .nav-bar {
-        justify-content: none;
         padding: 2px;
+        width: 100%;
         box-sizing: border-box;
     }
     .nav-bar h1 {
